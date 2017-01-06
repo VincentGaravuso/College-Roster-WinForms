@@ -11,7 +11,7 @@ namespace CollegeDatabaseAttempt1
         public List<Person> p = new List<Person>();
         
 
-        public List<String> DisplayAll()
+        public List<String> DisplayAll()//displays all the people in the database
         {
 
             List<String> Display = new List<String>();
