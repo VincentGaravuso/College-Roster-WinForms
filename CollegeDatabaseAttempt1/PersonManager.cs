@@ -114,7 +114,7 @@ namespace CollegeDatabaseAttempt1
             String update = "Name not found";
             for (int i = 0; i < p.Count; i++)
             {
-                if (p[i].name == name.ToLower())
+                if (p[i].name.ToLower() == name.ToLower())
                 {
                     if (p[i] is Student)//If it is a student or professor it will return that
                                         //value in string so the decision form can decide what form to open next
